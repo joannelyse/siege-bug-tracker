@@ -48,7 +48,7 @@ export default function BugForm({ onSubmit, onCancel }) {
     padding: "8px 12px",
     fontSize: 12,
     fontFamily: "inherit",
-    background: "#141414",
+    backgroundColor: "#141414",
     border: "1px solid #2e2e2e",
     borderRadius: 6,
     color: "#e2e8f0",
@@ -180,7 +180,7 @@ export default function BugForm({ onSubmit, onCancel }) {
                 <select
                   value={form[field.key]}
                   onChange={handleChange(field.key)}
-                  style={{ ...inputStyle, cursor: "pointer" }}
+                  style={{ ...inputStyle, cursor: "pointer", paddingRight: 30 }}
                 >
                   {field.options.map(function (opt) {
                     return (

@@ -163,7 +163,7 @@ export default function BugDetail({ bug, onBack, onUpdateStatus }) {
                       fontFamily: "inherit",
                       border:
                         "1px solid " +
-                        (isActive ? s.color : "#1e293b"),
+                        (isActive ? s.color : "#2e2e2e"),
                       background: isActive
                         ? s.color + "15"
                         : "transparent",

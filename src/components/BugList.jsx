@@ -109,6 +109,7 @@ export default function BugList({
           style={{
             display: "grid",
             gridTemplateColumns: "80px 1fr 100px 110px 100px 90px",
+            columnGap: 12,
             padding: "10px 16px",
             background: "#191919",
             borderBottom: "1px solid #2e2e2e",
@@ -157,6 +158,7 @@ export default function BugList({
                   display: "grid",
                   gridTemplateColumns:
                     "80px 1fr 100px 110px 100px 90px",
+                  columnGap: 12,
                   padding: "12px 16px",
                   cursor: "pointer",
                   alignItems: "center",

@@ -139,7 +139,7 @@ export default function App() {
   var tabs = [
     { key: "dashboard", label: "DASHBOARD" },
     { key: "list", label: "BUG LIST" },
-    { key: "new", label: "+ NEW BUG" },
+    { key: "new", label: "ADD NEW BUG" },
   ];
 
   return (
@@ -161,19 +161,6 @@ export default function App() {
             }}
           >
             Siege Bug Tracker
-          </span>
-          <span
-            style={{
-              fontSize: 9,
-              padding: "2px 8px",
-              borderRadius: 4,
-              background: "rgba(249,115,22,0.15)",
-              color: "#fb923c",
-              border: "1px solid rgba(249,115,22,0.3)",
-              letterSpacing: 1,
-            }}
-          >
-            QA TOOL v1.0
           </span>
         </div>
 
