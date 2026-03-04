@@ -38,8 +38,8 @@ export default function BugDetail({ bug, onBack, onUpdateStatus }) {
 
       <div
         style={{
-          background: "#111827",
-          border: "1px solid #1e293b",
+          background: "#1f1f1f",
+          border: "1px solid #2e2e2e",
           borderRadius: 8,
           overflow: "hidden",
         }}
@@ -48,7 +48,7 @@ export default function BugDetail({ bug, onBack, onUpdateStatus }) {
         <div
           style={{
             padding: "24px 28px 20px",
-            borderBottom: "1px solid #1e293b",
+            borderBottom: "1px solid #2e2e2e",
             background:
               "linear-gradient(135deg," +
               sev.color +
@@ -135,7 +135,7 @@ export default function BugDetail({ bug, onBack, onUpdateStatus }) {
             style={{
               marginTop: 28,
               paddingTop: 20,
-              borderTop: "1px solid #1e293b",
+              borderTop: "1px solid #2e2e2e",
             }}
           >
             <div
@@ -206,10 +206,10 @@ function DetailSection({ title, content, mono, highlight }) {
           color: highlight ? "#fbbf24" : "#c8d6e5",
           whiteSpace: "pre-wrap",
           fontFamily: mono ? "inherit" : "inherit",
-          background: mono ? "#0a0e17" : "transparent",
+          background: mono ? "#141414" : "transparent",
           padding: mono ? 16 : 0,
           borderRadius: mono ? 6 : 0,
-          border: mono ? "1px solid #1e293b" : "none",
+          border: mono ? "1px solid #2e2e2e" : "none",
         }}
       >
         {content}

@@ -21,8 +21,8 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
     {
       label: "TOTAL BUGS",
       value: stats.total,
-      accent: "#3b82f6",
-      glow: "59,130,246",
+      accent: "#f97316",
+      glow: "249,115,22",
     },
     {
       label: "OPEN",
@@ -45,8 +45,8 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
   ];
 
   var panelStyle = {
-    background: "#111827",
-    border: "1px solid #1e293b",
+    background: "#1f1f1f",
+    border: "1px solid #2e2e2e",
     borderRadius: 8,
     padding: 20,
   };
@@ -64,7 +64,7 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
             letterSpacing: -0.5,
           }}
         >
-          Mission Control
+          Overview
         </h1>
         <p
           style={{
@@ -92,8 +92,8 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
             <div
               key={card.label}
               style={{
-                background: "#111827",
-                border: "1px solid #1e293b",
+                background: "#1f1f1f",
+                border: "1px solid #2e2e2e",
                 borderRadius: 8,
                 padding: "20px 20px 16px",
                 position: "relative",
@@ -206,7 +206,7 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
                     width: 60,
                     height: 4,
                     borderRadius: 2,
-                    background: "#1e293b",
+                    background: "#2e2e2e",
                     overflow: "hidden",
                   }}
                 >
@@ -247,7 +247,7 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
               }}
               style={{
                 fontSize: 10,
-                color: "#3b82f6",
+                color: "#f97316",
                 background: "none",
                 border: "none",
                 cursor: "pointer",
@@ -277,7 +277,7 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
                   transition: "background 0.15s",
                 }}
                 onMouseEnter={function (e) {
-                  e.currentTarget.style.background = "#1a2744";
+                  e.currentTarget.style.background = "#2a2a2a";
                 }}
                 onMouseLeave={function (e) {
                   e.currentTarget.style.background = "transparent";

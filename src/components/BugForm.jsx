@@ -48,8 +48,8 @@ export default function BugForm({ onSubmit, onCancel }) {
     padding: "8px 12px",
     fontSize: 12,
     fontFamily: "inherit",
-    background: "#0a0e17",
-    border: "1px solid #1e293b",
+    background: "#141414",
+    border: "1px solid #2e2e2e",
     borderRadius: 6,
     color: "#e2e8f0",
     outline: "none",
@@ -146,8 +146,8 @@ export default function BugForm({ onSubmit, onCancel }) {
 
       <div
         style={{
-          background: "#111827",
-          border: "1px solid #1e293b",
+          background: "#1f1f1f",
+          border: "1px solid #2e2e2e",
           borderRadius: 8,
           padding: 28,
         }}
@@ -262,13 +262,13 @@ export default function BugForm({ onSubmit, onCancel }) {
               fontWeight: 600,
               fontFamily: "inherit",
               background:
-                "linear-gradient(135deg, #3b82f6, #6366f1)",
+                "linear-gradient(135deg, #f97316, #ea580c)",
               color: "#fff",
               border: "none",
               borderRadius: 6,
               cursor: "pointer",
               letterSpacing: 1,
-              boxShadow: "0 4px 20px rgba(59,130,246,0.3)",
+              boxShadow: "0 4px 20px rgba(249,115,22,0.3)",
             }}
           >
             SUBMIT BUG REPORT
@@ -281,7 +281,7 @@ export default function BugForm({ onSubmit, onCancel }) {
               fontFamily: "inherit",
               background: "transparent",
               color: "#64748b",
-              border: "1px solid #1e293b",
+              border: "1px solid #2e2e2e",
               borderRadius: 6,
               cursor: "pointer",
               letterSpacing: 1,

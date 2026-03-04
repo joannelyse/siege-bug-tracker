@@ -89,7 +89,7 @@ export default function App() {
   // Styles
   var containerStyle = {
     minHeight: "100vh",
-    background: "#0a0e17",
+    background: "#141414",
     fontFamily: "'JetBrains Mono','SF Mono','Fira Code',monospace",
     color: "#c8d6e5",
   };
@@ -108,8 +108,8 @@ export default function App() {
     alignItems: "center",
     justifyContent: "space-between",
     padding: "12px 24px",
-    background: "linear-gradient(180deg,#0f1729,#0a0e17)",
-    borderBottom: "1px solid #1a2744",
+    background: "linear-gradient(180deg,#1c1c1c,#141414)",
+    borderBottom: "1px solid #2a2a2a",
     position: "sticky",
     top: 0,
     zIndex: 50,
@@ -119,14 +119,14 @@ export default function App() {
     width: 32,
     height: 32,
     borderRadius: 6,
-    background: "linear-gradient(135deg,#3b82f6,#6366f1)",
+    background: "linear-gradient(135deg,#f97316,#ea580c)",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     fontSize: 14,
     fontWeight: 900,
     color: "#fff",
-    boxShadow: "0 0 20px rgba(59,130,246,0.3)",
+    boxShadow: "0 0 20px rgba(249,115,22,0.3)",
   };
 
   var contentStyle = {
@@ -167,9 +167,9 @@ export default function App() {
               fontSize: 9,
               padding: "2px 8px",
               borderRadius: 4,
-              background: "rgba(59,130,246,0.15)",
-              color: "#60a5fa",
-              border: "1px solid rgba(59,130,246,0.3)",
+              background: "rgba(249,115,22,0.15)",
+              color: "#fb923c",
+              border: "1px solid rgba(249,115,22,0.3)",
               letterSpacing: 1,
             }}
           >
@@ -193,11 +193,11 @@ export default function App() {
                   fontWeight: 600,
                   letterSpacing: 1.5,
                   border: "1px solid",
-                  borderColor: isActive ? "#3b82f6" : "transparent",
+                  borderColor: isActive ? "#f97316" : "transparent",
                   background: isActive
-                    ? "rgba(59,130,246,0.1)"
+                    ? "rgba(249,115,22,0.1)"
                     : "transparent",
-                  color: isActive ? "#60a5fa" : "#64748b",
+                  color: isActive ? "#fb923c" : "#64748b",
                   borderRadius: 4,
                   cursor: "pointer",
                   fontFamily: "inherit",
@@ -253,7 +253,7 @@ export default function App() {
 
       <style>
         {
-          "@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}} select option{background:#111827;color:#e2e8f0}"
+          "@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}} select option{background:#1f1f1f;color:#e2e8f0}"
         }
       </style>
     </div>

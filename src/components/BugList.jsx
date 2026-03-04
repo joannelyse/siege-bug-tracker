@@ -11,8 +11,8 @@ export default function BugList({
     padding: "8px 14px",
     fontSize: 12,
     fontFamily: "inherit",
-    background: "#111827",
-    border: "1px solid #1e293b",
+    background: "#1f1f1f",
+    border: "1px solid #2e2e2e",
     borderRadius: 6,
     color: "#e2e8f0",
     outline: "none",
@@ -64,7 +64,7 @@ export default function BugList({
           onChange={function (e) {
             onFilterChange("severity", e.target.value);
           }}
-          style={inputStyle}
+          style={{ ...inputStyle, paddingRight: 30 }}
         >
           <option value="all">All Severities</option>
           {Object.entries(SEVERITIES).map(function ([key, val]) {
@@ -82,7 +82,7 @@ export default function BugList({
           onChange={function (e) {
             onFilterChange("status", e.target.value);
           }}
-          style={inputStyle}
+          style={{ ...inputStyle, paddingRight: 30 }}
         >
           <option value="all">All Statuses</option>
           {Object.entries(STATUSES).map(function ([key, val]) {
@@ -98,8 +98,8 @@ export default function BugList({
       {/* Bug table */}
       <div
         style={{
-          background: "#111827",
-          border: "1px solid #1e293b",
+          background: "#1f1f1f",
+          border: "1px solid #2e2e2e",
           borderRadius: 8,
           overflow: "hidden",
         }}
@@ -110,8 +110,8 @@ export default function BugList({
             display: "grid",
             gridTemplateColumns: "80px 1fr 100px 110px 100px 90px",
             padding: "10px 16px",
-            background: "#0f1729",
-            borderBottom: "1px solid #1e293b",
+            background: "#191919",
+            borderBottom: "1px solid #2e2e2e",
           }}
         >
           {["ID", "TITLE", "SEVERITY", "STATUS", "PLATFORM", "DATE"].map(
@@ -162,14 +162,14 @@ export default function BugList({
                   alignItems: "center",
                   borderBottom:
                     i < bugs.length - 1
-                      ? "1px solid #1a2235"
+                      ? "1px solid #242424"
                       : "none",
                   transition: "background 0.15s",
                   animation:
                     "fadeIn 0.3s " + i * 0.03 + "s both",
                 }}
                 onMouseEnter={function (e) {
-                  e.currentTarget.style.background = "#1a2744";
+                  e.currentTarget.style.background = "#2a2a2a";
                 }}
                 onMouseLeave={function (e) {
                   e.currentTarget.style.background = "transparent";

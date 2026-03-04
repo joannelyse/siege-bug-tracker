@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #0a0e17;
+  background: #141414;
   color: #c8d6e5;
   font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
   -webkit-font-smoothing: antialiased;
@@ -30,16 +30,16 @@ select {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0e17;
+  background: #141414;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #2e2e2e;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: #3d3d3d;
 }
 
 * {
@@ -54,6 +54,6 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #f97316;
   outline-offset: 2px;
 }
