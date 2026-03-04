@@ -27,8 +27,8 @@ export default function Dashboard({ stats, bugs, onViewBug, onNavigate }) {
     {
       label: "OPEN",
       value: stats.open,
-      accent: "#f97316",
-      glow: "249,115,22",
+      accent: "#3b82f6",
+      glow: "59,130,246",
     },
     {
       label: "CRITICAL",
