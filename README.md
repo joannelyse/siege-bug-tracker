@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Siege Bug Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A QA bug tracking tool designed for Rainbow Six Siege testing
+workflows. Built to practice and demonstrate the skills used by
+development testers in AAA game studios such as bug identification,
+reproduction, severity classification, and structured reporting.
 
-## Available Scripts
+<img width="800" height="450" alt="Page1" src="https://github.com/user-attachments/assets/649f4b4b-9ef2-4324-bfcb-bc28e0f53eb0" />
+<img width="800" height="450" alt="Page2" src="https://github.com/user-attachments/assets/1f7e3152-34c0-4127-aa3b-bf0024a8c46e" />
+<img width="800" height="450" alt="Page3" src="https://github.com/user-attachments/assets/430a731d-c8e6-46af-9c34-4d487e57ee19" />
 
-In the project directory, you can run:
 
-### `npm start`
+## Why I Built This
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I'm pursuing a career in game QA testing and wanted a hands-on way to
+practice professional testing workflows. This tool imitates the
+processes dev test teams use like logging bugs with structured
+reproduction steps, classifying severity using industry-standard
+scales, tracking bug lifecycle from Open through Resolved, and
+communicating findings to a development team.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Dashboard** — An overview of bug statistics with severity
+  breakdown and recent reports
+- **Bug List** — Searchable and filterable by severity and status
+- **Bug Detail View** — Full report with reproduction steps,
+  expected vs actual behavior, and metadata
+- **Status Management** — Track bugs through Open, In Progress,
+  Resolved, and Closed
+- **New Bug Form** — Submit reports with severity, probability,
+  platform, map, operator, build version, date, and reporter
+- **R6S Themed UI** — Dark interface inspired by the Siege
+  in-game aesthetic
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## QA Methodology
 
-### `npm run build`
+Each bug report follows the format used in professional game
+development:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Severity** (Critical / Major / Minor / Trivial)
+- **Probability** (Always / Often / Sometimes / Rarely)
+- **Platform** (PC / PS5 / Xbox Series / All)
+- **Game mode** (Ranked / Quick Match / Unranked / Customs / Training Grounds)
+- **Map, Operator, Build Version & Reporter**
+- **Numbered reproduction steps**
+- **Expected vs actual behavior**
+- **Workaround documentation**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running Locally
+```bash
+git clone https://github.com/joannelyse/siege-bug-tracker.git
+cd siege-bug-tracker
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Opens at [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- Custom components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Joanna McCormack** — [GitHub](https://github.com/joannelyse)
