@@ -11,7 +11,7 @@ export default function BugList({
     padding: "8px 14px",
     fontSize: 12,
     fontFamily: "inherit",
-    background: "#1f1f1f",
+    backgroundColor: "#1f1f1f",
     border: "1px solid #2e2e2e",
     borderRadius: 6,
     color: "#e2e8f0",
